@@ -22,7 +22,7 @@ For exploring the API, please visit swagger-ui link
 --------------
 
 ### Testing app via Postman
-* Refer [PostManCollection](https://github.com/friday/friday.postman_collection.json)
+* Refer [PostManCollection](https://github.com/Prahladind9/task/tree/main/friday/src/main/resources/Friday.postman_collection.json)
 --------------
 
 ### Endpoint Details
