@@ -1,8 +1,8 @@
 ## Friday Solution
 ### Docker Image Pull Command
 ```shell
-docker pull prahladrao/tasks:latest
-docker run -p 8080:8080 prahladrao/tasks:latest 
+docker pull prahladrao/fridaytask:latest
+docker run -p 7800:7800 prahladrao/fridaytask:latest 
 ```
 ### Run Application
 For running the application locally:

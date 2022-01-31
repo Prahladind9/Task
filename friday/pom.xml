@@ -10,7 +10,7 @@
     </parent>
     <groupId>edu.prao</groupId>
     <artifactId>friday</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-RELEASE</version>
     <name>friday</name>
     <description>friday</description>
     <properties>

@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  workmotiontask:
+    image: prahlad/fridaytask
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - /data/fridaytask
+    ports:
+      - "7800:7800"

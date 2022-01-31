@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: friday-challenge
+server:
+  port: 7800
+  servlet:
+    context-path: /${spring.application.name}
+
+springdoc:
+  swagger-ui.path: /openapi/swagger-ui.html
+  swagger-ui.operationsSorter: method
+  api-docs.path: /openapi/v3/api-docs
+  packagesToScan: edu.prao.friday
+  pathsToMatch: /**
+api:
+  common:
+    version: 1.0.0
+    title: Friday Challenge
+
+  responseCodes:
+    ok.description: Address Parsed Successfully
+    badRequest.description: Bad Request, invalid format of the request
+
+  parseAddress:
+    post_address:
+      description: For the given address, return parsed separate fields for street name and street number.
+
+#Health and Metrics
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, metrics, prometheus
